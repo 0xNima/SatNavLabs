@@ -109,6 +109,11 @@ Think about what this value *should* be:
 So the big spikes in the plot are error events, and *where* they happen tells us the cause:
 
 - **Static** (the receiver never moves) → every step should be ~0, and indeed all steps are ≤ 0.07 m. This is the SPP **noise floor** - the best the method does under open sky.
+
+  <img width="1267" height="801" alt="sta_e_error_sources" src="https://github.com/user-attachments/assets/76bbf541-54f8-44ec-94a1-f117c4c488f4" />
+
+  <br>
+  
 - **Kinematic** → steps reach **4.9 m**. These spikes happen at the same times as the PDOP rising/ a satellite dropping out, which is at the tree line where the sky is blocked. The bottom histogram tells the same story: most epochs agree with the receiver to ~1.5 m, but a separate group at 5–7 m is exactly those blocked-sky moments.
 
 <img width="1245" height="801" alt="kin_e_error_sources" src="https://github.com/user-attachments/assets/0e1a3810-3cc3-4b0c-8b15-cd3222b6b837" />
