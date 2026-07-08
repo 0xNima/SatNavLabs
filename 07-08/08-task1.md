@@ -95,7 +95,7 @@ Green = start, red = end. The clean, straight legs cross open sky; the **tangled
 
 ---
 
-## (e) Typical GNSS error sources - the point of comparing the two
+## (e) Typical GNSS error sources
 
 This is the main reason for recording both a static and a kinematic session.
 
