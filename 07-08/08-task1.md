@@ -70,9 +70,6 @@ Two numbers summarise the agreement:
 - horizontal difference (RMS): **3.33 m** kinematic, 0.95 m static;
 - vertical (Up) difference (mean): **+6.8 m** kinematic, +3.6 m static.
 
-Notice the Up difference is a roughly **constant offset in the same direction** in both sessions.
-A constant offset (rather than random scatter) usually means a height reference or antenna height difference between the two solutions, not measurement noise - worth checking (see *To confirm*).
-
 The bottom plot overlays the two horizontal tracks on the same origin: they follow the same loop, and INSTINCT is a little noisier at the corners near the trees.
 
 <img width="1184" height="877" alt="sta_c_spp_vs_nmea" src="https://github.com/user-attachments/assets/461ec6bc-a633-4448-9f98-6fb54a2bef6d" />
